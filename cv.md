@@ -4,8 +4,12 @@
 ********
 ## Contact Information  
 **Phone:** +375293380609
+
+
 **Email:** baira96@gmail.com
-[Linkedin]([https://pl.linkedin.com/in/anastasiya-bairakova-512967187])
+
+
+[Linkedin](https://pl.linkedin.com/in/anastasiya-bairakova-512967187)
 ********
 ## Education 
 2013-2017 Belarassian State University 
