@@ -1,1 +1,160 @@
-Link=
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.preheader-info {
+    background-color: lightgray;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+.nav-link {
+    transition: .3s;
+}
+
+.nav-item a {
+    color: black;
+}
+
+.nav-list {
+    list-style: none;
+}
+
+.nav-link {
+    padding: 0 10px;
+    line-height: 30px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.header-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 5px solid lightgray;
+    padding: 90px 0;
+}
+
+.avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.avatar img {
+    height: 100%;
+}
+
+.private-info {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.name {
+    border-bottom: 1px solid black;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    font-size: 32px;
+}
+
+.position {
+    font-size: 22px;
+}
+
+.main-info-container {
+    display: flex;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main-info-container article {
+    flex-basis: 400px; 
+    padding: 0 30px; 
+}
+
+.section-title {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.contacts p span:nth-child(odd) {
+    font-weight: 600;
+
+}
+
+.contacts p span:nth-child(even) {
+    margin-left: 5px;
+
+}
+
+.contacts p {
+    margin: 3px 0;
+}
+
+.border {
+    width: 100%;
+    height: 5px;
+    background-color: lightgray;
+    border-radius: 2px;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+footer {
+
+    background-color: lightgray;
+    width: 100%;
+    padding: 25px 0;
+}
+
+.footer-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.footer-list {
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.footer-main img {
+    height: 30px;
+}
+
+.footer-list a {
+    margin-left: 10px;
+}
